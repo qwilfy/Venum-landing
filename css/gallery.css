@@ -1,0 +1,62 @@
+@import url('https://fonts.googleapis.com/css?family=Barlow+Condensed|Rajdhani|Uncial+Antiqua&display=swap');
+.gloves-gallery #btn-filters:after{
+	height:200px;width:200px;
+}
+
+.gallery-title
+{
+    font-size: 36px;
+    color: #060121;
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 70px;
+	font-family: 'Rajdhani', sans-serif;
+}
+.gallery-title:after {
+    content: "";
+    position: absolute;
+    width: 60.5%;
+    left: 20.5%;
+    height: 45px;
+    border-bottom: 1px solid #5e5e5e;
+}
+.filter-button
+{
+	margin-top: -2em;
+    font-size: 40px;
+    border: 1px solid #09003b;
+    border-radius: 40px;
+    text-align: center;
+    color: #060121;
+    margin-bottom: 35px;
+	font-family: 'Barlow Condensed', sans-serif;
+
+}
+.filter-button:hover
+{
+    font-size: 18px;
+    border: 1px solid #09003b;
+    border-radius: 5px;
+    text-align: center;
+    color: #ffffff;
+    background-color: #09003b;
+	
+	
+
+}
+.btn-default:active .filter-button:active
+{
+    background-color: #09003b;
+    color: white;
+	
+}
+
+.port-image
+{
+    width: 100%;
+}
+
+.gallery_product
+{
+    margin-bottom: 30px;
+}
